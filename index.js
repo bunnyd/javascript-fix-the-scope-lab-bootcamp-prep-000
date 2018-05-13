@@ -18,7 +18,7 @@ function add2(n) {
   // Feel free to move things around!
   const two = 2
   return n + two
-  
+;  
 }
 
 var funkyFunction = function() {
@@ -27,20 +27,6 @@ var funkyFunction = function() {
   }
   
 }
-
-function outerFunction() {
- var innerVariable = "I'm sort of a secret.";
- 
- return function innerScope() {
-   var inaccessible = "Nothing can touch me.";
- 
-   return innerVariable;
- }
-}
-var myScope = outerFunction();
- 
-// the stringified version of `innerScope()`
-myScope;
 
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
