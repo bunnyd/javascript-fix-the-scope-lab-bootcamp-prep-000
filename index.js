@@ -37,6 +37,10 @@ function outerFunction() {
    return innerVariable;
  }
 }
+var myScope = outerFunction();
+ 
+// the stringified version of `innerScope()`
+myScope;
 
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
